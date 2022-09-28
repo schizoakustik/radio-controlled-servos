@@ -1,8 +1,8 @@
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 1) {
-        angle += -1
+        angle += -5
     } else if (receivedNumber == 2) {
-        angle += 1
+        angle += 5
     } else {
         angle = 90
     }
